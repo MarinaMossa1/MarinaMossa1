@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif ,;
+    background-color: #eaddcf;
+    color: #020826;
+
+}
+.main{
+    background-color: #f9f4ef;
+}
+.header{
+    text-align: center;
+    padding: 1.4em 0;
+}
+
+/* test prop */
+.title{
+    color: #020826;
+    font-size: 2.4rem;
+    /* text-decoration: underline; */
+    letter-spacing: 7px;
+    border-bottom: 1px solid#716040;
+    margin-bottom: 0.15em;
+    /* text-transform: uppercase; */
+    /* line-height: 10px; */
+    /* word-spacing: 20px; */
+    /* direction: ltr; */
+    /* font-weight:900; */
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+    /* font: italic bold 20px/40px arial,times; */
+}
+.title-description{
+    font-size: 1.1em;
+    color: #716040;
+     
+}
+.media{
+    background-color:  #eaddcf;
+    width:100%;
+    padding: 3em 1.5em 1.5em;
+    margin: 2em auto 1em;
+}
+
+.media-image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #020826;
+    margin: 0 auto;
+}
+
+.media-caption{
+    /* border&margin&padding-pro   */
+     /* border-style: solid  ;
+    border-color: #a1091d;
+    border-width: 10px;
+    border-radius: 20px ; */
+    max-width: 720px;
+    margin-top: 1.5em;
+    padding: 0 1em;
+    text-align: center;
+    margin-left:250px;
+    font-size: large;
+    /* padding: 70px; */
+    
+}
+
+.tribute-info{
+    margin: 3em auto;
+}
+
+.headline{
+    font-size: 1.8em;
+    font-weight: 400;
+    text-align: center;
+    color: #020826;
+}
+
+.list-of-time{
+    padding: 0 4em;
+    margin-top: 1.2em;
+}
+.list-of-time li{
+    font-size: 1.2em;
+    text-align: justify;
+    color: #716040;
+}
+
+.list-of-time time{
+    font-weight: 700;
+    color: #685635;
+}
+
+.info{
+    text-align: center;
+    background-color:  #eaddcf;
+    padding: 20px;
+    margin: 30px;
+}
+
+.frist{
+    background-color: #ccad74;
+}
+
+.footer{
+    background-color: #eaddcf ;
+    margin: 20px;
+    padding: 1.5em;
+    font-weight: 700;
+    color: #020826;
+    text-align: center;
+    font-size: 0.9em;
+
+}
+
+
+
+.tribute-link{
+    color: #2f46b8;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+/* a:visited{
+    color: #a1091d;
+} */
+a:hover{
+    color: #a1091d;
+    text-decoration: line-through;
+    font-size: large;
+    text-transform: uppercase;
+}
+a:active{
+    color: rgb(89, 214, 64);
+}
+.list-of-time{
+    list-style-type:circle;
+    /* border: 1px solid  red; */
+    /* list-style-position: inside; */
+    /* list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Red_circle.svg/2048px-Red_circle.svg.png); */
+}
+
+
+
+
+
+/* .dis h4 ,h5,h6{
+    display: inline;
+   
+} */
+/* h4{
+    text-align: left;
+    display: inline;
+}
+h5{
+    text-align: right;
+    display: inline;
+}
+h6{
+    text-align: center;
+    display: inline;
+} */
+
+/* .over {
+    height: 100px;
+    background-color: #a1091d;
+    overflow: scroll;
+
+} */
